@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use OrganTransition, please cite it using the metadata below."
+title: OrganTransition
+version: 1.0.0
+date-released: 2026-10-26
+authors:
+  - family-names: Chen
+    given-names: Jieteng
+    email: chenjieteng@westlake.edu.cn
+type: software
+license: MIT
+abstract: "An R package for computing individual organ-specific frailty transition scores from age-stratified Gaussian Bayesian reference networks and for placing the scores on reference percentile distributions."
+keywords:
+  - frailty
+  - aging
+  - Bayesian network
+  - transition score
+  - R

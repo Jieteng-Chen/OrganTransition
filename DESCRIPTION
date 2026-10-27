@@ -1,0 +1,23 @@
+Package: OrganTransition
+Type: Package
+Title: Individual Organ-Specific Frailty Transition Scores
+Version: 1.0.0
+Authors@R: person("Jieteng", "Chen", email = "chenjieteng@westlake.edu.cn",
+                  role = c("aut", "cre"))
+Author: Jieteng Chen [aut, cre]
+Maintainer: Jieteng Chen <chenjieteng@westlake.edu.cn>
+Description: Takes nine raw [0, 1] organ FI values, standardises them
+    internally with frozen global means and standard deviations, computes the
+    overall and per-organ transition scores with an age-stratified pair of
+    Gaussian Bayesian reference networks, and returns their percentiles from
+    frozen aggregated quantile tables, both overall and within age-sex matched
+    strata. Raw transition-score values are not returned, no cohort label is
+    required, and no individual-level reference data are included in the
+    package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.2
